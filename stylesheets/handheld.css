@@ -2,50 +2,42 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-image: url("https://raw.githubusercontent.com/niraj019/niraj019.github.io/master/3.jpeg")
+  background-image: url("3.jpeg");
 
 }
 
 body {
   height: 100%;
   width: 100%;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-top: 0;
+  padding: 10px;
 
 }
 
 #title {
   text-align: center;
-  line-height: 100px;
-  width: 50%;
+  width: 100%;
   height: 20%;
   font-family: "English157 BT";
-  font-size: 20px;
+  font-size: 24px;
 
 }
-
-
 
 h1 {
   margin: 0;
   color: rgba(51,51,153,0.8);
   text-decoration: underline;
+}
 
-
+h2 {
+  margin-top: 0;
 }
 
 #subtitle {
   margin: 0;
   padding: 0;
   width: 100%;
-  position: absolute;
-  top: 90px;
+  font-size: 20px;
   color: white;
-  min-width: 1030px;
-
-
 }
 span {
   color: white;
@@ -55,32 +47,15 @@ span {
 
 
 .navigation {
-  float: left;
-  width: 300px;
-  height: 260px;
-  padding: 0 0 0 0;
-  margin: 120px 20px 0 0;
   list-style: none;
-
-}
-
-#text {
-  overflow: hidden;
-  height: auto;
-  background: rgba(0,0,0,0.3);
-  text-align: left;
-  color: white;
-  margin: 120px 20px 20px 0;
-  padding: 20px;
-  font-family: "Corbel";
-  font-size: 20px;
-  min-height: 220px;
+  padding: 0;
 }
 
 .nav-item {
+
   height: 50px;
   margin-top: 1px;
-  margin-right: 0; 
+  background: rgba(0,0,0,0.3);
 }
 
 .nav-item a {
@@ -88,9 +63,8 @@ span {
   color: white;
   font-family: "Corbel";
   font-size: 25px;
-  font-style: bold;
   text-decoration: none;
-  width: 300px;
+  width: 450px;
   height: 50px;
   display: table-cell;
   vertical-align: middle;
@@ -104,6 +78,19 @@ span {
   background: linear-gradient(135deg, rgba(0,0,0,0.3) 15%,rgba(51,51,153,0.65) 100%);
 }
 
+
+#text {
+
+  height: auto;
+  background: rgba(0,0,0,0.3);
+  text-align: left;
+  color: white;
+  margin: 120px 20px 20px 0;
+  padding: 20px;
+  font-family: "Corbel";
+  font-size: 20px;
+  min-height: 220px;
+}
 
 
 /* Additional non-critical styles */
