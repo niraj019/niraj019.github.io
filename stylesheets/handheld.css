@@ -2,10 +2,11 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-image: url("https://raw.githubusercontent.com/niraj019/niraj019.github.io/master/3.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-
+  background: url("3https://raw.githubusercontent.com/niraj019/niraj019.github.io/master/3.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 
 body {
