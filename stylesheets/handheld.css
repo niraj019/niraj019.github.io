@@ -3,6 +3,8 @@ html {
   width: 100%;
   margin: 0;
   background-image: url("https://raw.githubusercontent.com/niraj019/niraj019.github.io/master/3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
