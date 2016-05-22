@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Arial; 
+  src: url("https://github.com/niraj019/niraj019.github.io/blob/master/english-157-bt_%5Bnl.allfont.net%5D.ttf?raw=true");
+}
+
 html {
   height: 100%;
   width: 100%;
