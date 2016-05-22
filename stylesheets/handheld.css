@@ -61,6 +61,7 @@ span {
   margin-top: 1px;
   height: 50px;
   width: 100%;
+  background: none;
 }
 
 .nav-item a {
@@ -98,102 +99,3 @@ span {
   font-size: 20px;
   min-height: 220px;
 }
-
-
-body {
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-
-}
-
-#title {
-  text-align: center;
-  width: 100%;
-  height: 20%;
-  font-family: "English157 BT";
-  font-size: 24px;
-
-}
-
-h1 {
-  padding-top: 5%;
-  margin: 0;
-  color: rgba(51,51,153,0.8);
-  text-decoration: underline;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-#subtitle {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-size: 20px;
-  color: white;
-}
-span {
-  color: white;
-  text-decoration: none;
-}
-
-
-
-.navigation {
-  list-style: none;
-  padding: 0;
-}
-
-.nav-item {
-  text-align: center;
-  margin-top: 1px;
-  background: rgba(0,0,0,0.3);
-  height: 100px;
-}
-
-.nav-item a {
-  display: block;
-  vertical-align: middle;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 80px;
-  color: white;
-  font-family: "Corbel";
-  font-size: 25px;
-  text-decoration: none;
-  height: 50px;
-  padding: 20px;
-  background: rgba(0,0,0,0.3);
-  text-align: center;
-
-}
-
-.nav-item a:hover {
-  color: white;
-  background: linear-gradient(135deg, rgba(0,0,0,0.3) 15%,rgba(51,51,153,0.65) 100%);
-}
-
-
-#text {
-
-  height: auto;
-  background: rgba(0,0,0,0.3);
-  text-align: left;
-  color: white;
-  margin: 120px 20px 20px 0;
-  padding: 20px;
-  font-family: "Corbel";
-  font-size: 20px;
-  min-height: 220px;
-}
-
-
-/* Additional non-critical styles */
-
-
-
-/* Micro reset 
-*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
-html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }*/
